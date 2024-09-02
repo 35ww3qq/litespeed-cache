@@ -3,7 +3,21 @@
 // Backlink ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
-    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="https://www.fapjunk.com" title="Porn Videos">Free Porn</a><br></br><a href="https://www.xbporn.com" title="xbporn">xbporn</a><br><br></br><a href="https://www.bangspankxxx.com">https://www.bangspankxxx.com</a></span>' . PHP_EOL;
+    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="https://1v1-lol-76.github.io" title="1v1.lol 76">1v1.lol 76</a>
+<a href="https://class-911.github.io" title="unblocked games">unblocked games</a>
+<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paperio">paperio</a>
+<a href="https://www.symbaloo.com/mix/io-unblocked" title="io games">io games</a>
+<a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="yohoho">yohoho</a>
+<a href="https://yohoho-77x.github.io" title="yohoho 76">yohoho 76</a>
+<a href="https://www.symbaloo.com/mix/fnaf-unblocked?lang=EN" title="fnaf unblocked github.io">fnaf unblocked github.io</a>
+<a href="https://www.symbaloo.com/mix/unblocked-games-2023-24?lang=EN" title="unblocked games">unblocked games</a>
+<a href="https://www.symbaloo.com/mix/io-games-unblocked-55x?lang=EN" title="unblocked games io">unblocked games io</a>
+<a href="https://www.symbaloo.com/mix/classroom-6x-unblocked?lang=EN" title="classroom 6x">classroom 6x</a>
+<a href="https://www.symbaloo.com/mix/yohoho-io-unblocked-2-3?lang=EN" title="Yohoho.io Unblocked 2">Yohoho.io Unblocked 2</a>
+<a href="https://www.symbaloo.com/mix/1v1-lol-unblocked?lang=EN" title="1v1.lol unblocked github 76">1v1.lol unblocked github 76</a>
+<a href="https://www.symbaloo.com/mix/unblocked-games-76?lang=EN" title="unblocked games">unblocked games</a>
+<a href="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN" title="yohoho 76">yohoho 76</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedpvp?lang=EN" title="unblocked games github.io">unblocked games github.io</a></span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
     $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
