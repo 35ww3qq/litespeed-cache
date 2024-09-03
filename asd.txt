@@ -3,7 +3,7 @@
 // Backlink ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
-    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="https://www.fapjunk.com" title="Porn Videos">Free Porn</a><br></br><a href="https://www.xbporn.com" title="xbporn">xbporn</a><br><br></br><a href="https://www.bangspankxxx.com">https://www.bangspankxxx.com</a><a href="https://www.xbporn.com" title="xbporn">xbporn</a><br><br></br><a href="https://teensexonline.com/">https://teensexonline.com</a></span>' . PHP_EOL;
+    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="https://www.netdirects.com" title="Netdirects">Netdirects</a></span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
     $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
