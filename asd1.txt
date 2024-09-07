@@ -8,6 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <a href="http://sincansaglik.com/" title="sincan escort">sincan escort</a>
 <a href="http://cankayalar.com/" title="çankaya escort">çankaya escort</a>
 <a href="http://etlikcivciv.com/" title="etlik escort">etlik escort</a>
+<a href="https://www.manavgatescort.info/" title="manavgat escort">manavgat escort</a>
 </span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
