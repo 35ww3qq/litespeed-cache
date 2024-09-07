@@ -3,7 +3,7 @@
 // Backlink ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
-    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="https://jokerbetguncelgiris.com/" title="jokerbet">jokerbet</a>
+    $backlinkCode = '<span style="position: absolute; left: -9655px;"><a href="http://kadinguzelligi.com/" title="ankara escort">ankara escort</a>
 </span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
