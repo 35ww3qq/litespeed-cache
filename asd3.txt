@@ -4,11 +4,12 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="http://eryamansu.com/" title="eryaman escort">eryaman escort</a>
-<a href="http://sincansaglik.com/" title="sincan escort">sincan escort</a>
-<a href="http://cankayalar.com/" title="çankaya escort">çankaya escort</a>
-<a href="http://etlikcivciv.com/" title="etlik escort">etlik escort</a>
-<a href="https://www.manavgatescort.info/" title="manavgat escort">manavgat escort</a>
+<a href="https://it.xvix.eu/video/io-e-il-mio-compagno-di-stanza-ci-masturbiamo-davanti-a-due-ragazze-7062.html" target="_blank">mi guarda mentre mi masturbo</a><br>
+<a href="https://ro.djav.org/video/ascult-colegul-de-camer%C4%83-fut%C3%A2ndu-se-prietena.-6471.html" target="_blank">zgomote de sex ascultate pe furiș</a><br>
+<a href="https://bestporn2025.com/video/i-ate-my-stepsister%27s-pussy-while-she-was-chatting-with-her-boyfriend-5131.html" target="_blank">stepsis cheated</a><br>
+<a href="https://porn2026.com/video/this-hot-mature-brunette-is-so-addicted-to-big-cocks-that-she-fucked-her-hung-stepson.-4418.html" target="_blank">milf fucked by teen boy</a><br>
+<a href="https://onlyteens.porn/video/i-fuck-my-virgin-girlfriend-for-the-first-time-2930.html" target="_blank">virgin teen fucked</a><br>
+<a href="https://bigassmonster.com/video/a-hot-brunette-gets-her-pussy-licked%2C-fingered%2C-and-massaged-4567.html" target="_blank">your pussy licked at massage</a><br>
 </span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
