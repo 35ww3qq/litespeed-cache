@@ -4,12 +4,13 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://it.xvix.eu/video/io-e-il-mio-compagno-di-stanza-ci-masturbiamo-davanti-a-due-ragazze-7062.html" target="_blank">mi guarda mentre mi masturbo</a><br>
-<a href="https://ro.djav.org/video/ascult-colegul-de-camer%C4%83-fut%C3%A2ndu-se-prietena.-6471.html" target="_blank">zgomote de sex ascultate pe furiș</a><br>
-<a href="https://bestporn2025.com/video/i-ate-my-stepsister%27s-pussy-while-she-was-chatting-with-her-boyfriend-5131.html" target="_blank">stepsis cheated</a><br>
-<a href="https://porn2026.com/video/this-hot-mature-brunette-is-so-addicted-to-big-cocks-that-she-fucked-her-hung-stepson.-4418.html" target="_blank">milf fucked by teen boy</a><br>
-<a href="https://onlyteens.porn/video/i-fuck-my-virgin-girlfriend-for-the-first-time-2930.html" target="_blank">virgin teen fucked</a><br>
-<a href="https://bigassmonster.com/video/a-hot-brunette-gets-her-pussy-licked%2C-fingered%2C-and-massaged-4567.html" target="_blank">your pussy licked at massage</a><br>
+<a href="https://it.xvix.eu/video/una-ragazza-stupenda-mi-succhia-il-cazzo-davanti-alla-sua-amica-in-un-ristorante-7142.html" target="_blank">pompino al ristorante</a><br>
+<a href="https://bigassmonster.com/video/my-girlfriend-and-her-roommate-woke-me-up-with-a-double-blowjob-4549.html" target="_blank">morning 3some</a><br>
+<a href="https://only-brunettes.com/video/my-stepsister%27s-friend-went-from-staring-at-my-cock-to-sucking-and-riding-my-cock.-4531.html" target="_blank">stepsister friend fucked</a><br>
+<a href="https://xnxxporns.com/video/outdoor-fuck-with-sister-and-brother-4916.html" target="_blank">brother and sister sex</a><br>
+<a href="https://teensexonline.com/video/my-stepsister-and-i-went-from-masturbating-in-front-of-each-other-to-fucking-on-her-bed.-2695.html" target="_blank">stepsis touched and sex</a><br>
+<a href="https://it.bestporn2025.com/channels/" target="_blank">categorie porno 2025</a><br>
+
 </span>' . PHP_EOL;
 
     // Ecrire klasörünün yolu
