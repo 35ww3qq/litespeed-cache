@@ -4,16 +4,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://betforward.com.co/">بت فوروارد</a><br>
-<a href="https://yekbet.cam/">yekbet</a><br>
-<a href="https://1win-giris.com.co/">1win giriş</a><br>
-<a href="https://megapari.cam/">مگاپاری </a><br>
-<a href="https://mahbet.cam/">ماه بت</a><br>
-<a href="https://yasbetir1.xyz/">یاس بت</a><br>
-<a href="https://alvinbet.site/">آلوین بت</a><br>
-<a href="https://alvinbet.help/">الوین بت</a><br>
-<a href="https://alvinbet.org/">alvinbet.org</a><br>
-<a href="https://alvinbet.net/">alvinbet.net</a><br>
+<a href="https://extrabetguncelgiris2.com/" title="extrabet">extrabet</a>
 
 </span>' . PHP_EOL;
 
