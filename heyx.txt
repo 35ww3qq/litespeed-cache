@@ -5,8 +5,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
 <a href="https://xsunx.com" title="https://xsunx.com">https://xsunx.com</a>
+
 <a href="https://www.ding3000.com" title="https://www.ding3000.com">https://www.ding3000.com</a>
+
 <a href="https://vorra.net" title="https://vorra.net">https://vorra.net</a>
+
 <a href="https://www.cristine.org/" title="https://www.cristine.org">https://www.cristine.org</a>
 <a href="https://actingupstage.com/" title="bonus veren siteler">bonus veren siteler</a>
 <a href="https://honestk.com/" title="https://honestk.com">https://honestk.com</a>
