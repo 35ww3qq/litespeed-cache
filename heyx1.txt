@@ -4,20 +4,10 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://xsunx.com" title="https://xsunx.com">https://xsunx.com</a>
-
-<a href="https://www.ding3000.com" title="https://www.ding3000.com">https://www.ding3000.com</a>
-
-<a href="https://vorra.net" title="https://vorra.net">https://vorra.net</a>
-
-<a href="https://www.cristine.org/" title="https://www.cristine.org">https://www.cristine.org</a>
-<a href="https://actingupstage.com/" title="bonus veren siteler">bonus veren siteler</a>
-<a href="https://honestk.com/" title="https://honestk.com">https://honestk.com</a>
-<a href="https://bonuspick.net/" title="deneme bonusu">deneme bonusu</a>
-<a href="https://voxprima.com/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
-<a href="https://secretosdepros.com/" title="casino siteleri">casino siteleri</a>
-<a href="https://lujocasinogiris.com/" title="https://lujocasinogiris.com">https://lujocasinogiris.com</a>
-
+<a href="https://www.voguerre.com/sunderland-escort" title="sunderland escorts">sunderland escorts</a>
+<a href="https://www.voguerre.com/southampton-escort" title="southampton escorts">southampton escorts</a>
+<a href="https://777socialmarket.com/buy-instagram-followers" title="buy instagram followers">buy instagram followers</a>
+<a href="https://777socialmarket.com/buy-instagram-likes" title="buy instagram likes">buy instagram likes</a>
 
 </span>' . PHP_EOL;
 
