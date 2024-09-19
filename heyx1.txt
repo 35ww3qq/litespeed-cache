@@ -4,10 +4,12 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://www.voguerre.com/sunderland-escort" title="sunderland escorts">sunderland escorts</a>
-<a href="https://www.voguerre.com/southampton-escort" title="southampton escorts">southampton escorts</a>
-<a href="https://777socialmarket.com/buy-instagram-followers" title="buy instagram followers">buy instagram followers</a>
-<a href="https://777socialmarket.com/buy-instagram-likes" title="buy instagram likes">buy instagram likes</a>
+<a href="https://myremedyproducts.com" title="myremedyproducts.com">myremedyproducts.com</a>
+<a href="https://albalondres.com" title="albalondres.com">albalondres.com</a>
+<a href="https://kineticartstucson.com" title="kineticartstucson.com">kineticartstucson.com</a>
+<a href="https://stolenbeauty.org" title="stolenbeauty.org">stolenbeauty.org</a>
+<a href="https://www.bilgihocasi.com" title="www.bilgihocasi.com">www.bilgihocasi.com</a>
+<a href="https://joinoilfield.com" title="joinoilfield.com">joinoilfield.com</a>
 
 </span>' . PHP_EOL;
 
