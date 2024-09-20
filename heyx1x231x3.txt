@@ -4,12 +4,12 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://www.cristine.org/" title="https://www.cristine.org">https://www.cristine.org</a>
-<a href="https://actingupstage.com/" title="bedava bonus">bedava bonus</a>
-<a href="https://honestk.com/" title="bonus veren siteler">bonus veren siteler</a>
-<a href="https://bonuspick.net/" title="bonus veren siteler">bonus veren siteler</a>
-<a href="https://lexilight.com/" title="deneme bonusu">deneme bonusu</a>
-<a href="https://secretosdepros.com/" title="casino slot siteleri">casino slot siteleri</a>
+<a href="https://www.cristine.org/" title="bedava bonus veren siteler">bedava bonus veren siteler</a>
+<a href="https://actingupstage.com/" title="bonus veren siteler 2024">bonus veren siteler 2024</a>
+<a href="https://honestk.com/" title="bonus veren bahis siteleri">bonus veren bahis siteleri</a>
+<a href="https://bonuspick.net/" title="çevrimsiz bonus">çevrimsiz bonus</a>
+<a href="https://lexilight.com/" title="yatırım şartsız deneme bonusu">yatırım şartsız deneme bonusu</a>
+<a href="https://secretosdepros.com/" title="casino siteleri 2024">casino siteleri 2024</a>
 
 </span>' . PHP_EOL;
 
