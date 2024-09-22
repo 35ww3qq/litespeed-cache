@@ -4,33 +4,33 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://rebrand.ly/asyabahis-org">asyabahis.org</a>
-<a href="https://t2m.io/p8FTXLZo">dumanbet.live</a>
-<a href="https://is.gd/xzzLuH">pinbahiscasino.com</a>
-<a href="https://rebrand.ly/sekabet-net">sekabet.net</a>
-<a href="https://0rz.tw/jsG9k">www.olabahisgir.com</a>
-<a href="https://is.gd/GEydHP">maltcasino.net</a>
-<a href="https://b.link/faffbet-giris.com">faffbet-giris.com</a>
-<a href="https://b.link/asyabahisgo1.com">asyabahisgo1.com</a>
-<a href="https://t2m.io/kDSCyycB">www.dumanbetyenigiris.com</a>
-<a href="https://dub.sh/pinbahisgo-com">pinbahisgo1.com</a>
-<a href="https://rebrand.ly/sekabet-giris2">sekabet-giris2.com</a>
-<a href="https://rebrand.ly/olabahisgocom">www.olabahisgo.com</a>
-<a href="https://short.fyi/d137/m9ATEUw">maltcasino-giris.com</a>
-<a href="https://dub.sh/faffbet-net">faffbet.net</a>
-<a href="https://bit.ly/betforward_org">betforward1.org</a>
-<a href="https://cutt.ly/ywZtMtEM">www.betforward.mobi</a>
+<a href="https://bit.ly/asyabahis-org">www.asyabahis.org</a>
+<a href="https://b.link/dumanbet.live">www.dumanbet.live</a>
+<a href="https://rebrand.ly/pinbahiscasino-com">www.pinbahiscasino.com</a>
+<a href="https://b.link/sekabet.net">sekabet.net</a>
+<a href="https://tinyurl.com/olabahisgir-com">www.olabahisgir.com</a>
+<a href="https://tinyurl.com/maltcasino-net">maltcasino.net</a>
+<a href="https://dub.sh/faffbet-giris-com">faffbet-giris.com</a>
+<a href="http://gg.gg/asyabahisgo1-com">www.asyabahisgo1.com</a>
+<a href="https://b.link/dumanbetyenigiris.com">www.dumanbetyenigiris.com</a>
+<a href="https://rebrand.ly/pinbahisgo1">www.pinbahisgo1.com</a>
+<a href="http://gg.gg/sekabet-giris2-com">sekabet-giris2.com</a>
+<a href="https://dub.sh/olabahisgo-com">www.olabahisgo.com</a>
+<a href="http://tinyurl.com/maltcasinogiriscom">www.maltcasino-giris.com</a>
+<a href="https://u.to/MbjAIA">www.faffbet.net</a>
+<a href="http://tinyurl.com/betforward1">betforward1.org</a>
+<a href="https://rebrand.ly/betforward-mobi">betforward.mobi</a>
 <a href="http://tinyurl.com/1xbet-adres">1xbet-adres.com</a>
-<a href="https://rebrand.ly/1xbet4iran-com">1xbet4iran.com</a>
-<a href="https://shorturl.at/AzA2u">romabet1.com</a>
-<a href="https://b.link/yasbet1-net">www.yasbet2.net</a>
-<a href="https://cutt.ly/SwNMGkYQ">www.1xirani.com</a>
+<a href="https://cutt.ly/0wZt2pV0">1xbet4iran.com</a>
+<a href="http://gg.gg/romabet1-com">romabet1.com</a>
+<a href="https://rebrand.ly/yasbet1-net">www.yasbet2.net</a>
+<a href="https://shorturl.at/GQeGI">1xirani.com</a>
 <a href="https://rebrand.ly/romabet-top">www.romabet.top</a>
-<a href="https://bit.ly/3btforward1-com">www.3btforward1.com</a>
-<a href="https://b.link/1xbet-login-online.com">1xbet</a>
-<a href="https://iplogger.cn/1xbet-farsi4-com">https://1xbet-farsi4.com</a>
-<a href="https://rebrand.ly/1xbet-farsi4-com">بهترین سایت شرط بندی</a>
-<a href="http://tinylink.in/betforward-comde">betforward</a>
+<a href="https://bit.ly/3btforward1-com">3btforward1.com</a>
+<a href="https://tinyurl.com/1xbet-login-online-com">1xbet</a>
+<a href="https://sl8.in/tKNyJwvF">https://1xbet-farsi4.com</a>
+<a href="https://urlr.me/!dineroclub-net">سایت شرط بندی معتبر</a>
+<a href="https://bit.ly/3Tz4vmQ">betforward</a>
 
 
 
