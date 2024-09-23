@@ -3,11 +3,7 @@
 // Backlink ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
-    $backlinkCode = '<span style="position: absolute; left: -4355px;">
-<a href="https://www.voguerre.com" title="uk escort directory">uk escort directory</a>
-<a href="https://www.voguerre.com/hull-escort" title="hull-escort">hull-escort</a>
-<a href="https://777socialmarket.com/buy-instagram-followers" title="buy instagram followers">buy instagram followers</a>
-<a href="https://777socialmarket.com/buy-twitter-followers" title="buy twitter followers">buy twitter followers</a>
+    $backlinkCode = '<span style="position: absolute; left: -8355px;">
 <a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paper.io unblocked">paper.io unblocked</a>
 <a href="https://www.symbaloo.com/mix/io-unblocked" title="io games">io games</a>
 <a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="yohoho">yohoho</a>
