@@ -3,13 +3,11 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<p>Free Translation <a title="freetranslations.org" href="https://www.freetranslations.org/" rel="dofollow">freetranslations.org</a></p>
-<p>Translate to English<a title="translatedict.com" href="https://www.translatedict.com/" rel="dofollow"> translatedict.com</a></p>
-<p>Spanish English<a title="spanishenglish.net" href="https://spanishenglish.net" rel="dofollow"> spanishenglish.net</a></p>
-<p>Spanish to English <a title="spanishenglish.com" href="https://www.spanishenglish.com/" rel="dofollow">spanishenglish.com</a></p>
-<p>Akücü <a title="akumyolda.com" href="https://akumyolda.com/akucu/" rel="dofollow">akumyolda.com</a></p>
-<p>Turkce İngilizce Ceviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/" rel="dofollow">turkceingilizce.gen.tr</a></p>
-<p>İngilizce Dersleri <a title="ingilizceturkce.gen.tr" href="https://ingilizcedersleri.ingilizceturkce.gen.tr/" rel="dofollow">ingilizceturkce.gen.tr</a></p>
+<p>Professional and Free Translation<a title="www.freetranslations.org" href="https://www.freetranslations.org/" rel="dofollow">www.freetranslations.org</a></p>
+<p>Text to Voice Translator<a title="www.translatedict.com" href="https://www.translatedict.com/voice-translator.html" rel="dofollow">www.translatedict.com</a></p>
+<p>En Yakin Akücü <a title="akumyolda.com" href="https://akumyolda.com/en-yakin-akucu/" rel="dofollow">akumyolda.com</a></p>
+<p>Ingilizce Türkçe Çeviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/ingilizce-turkce-ceviri/" rel="dofollow">turkceingilizce.gen.tr</a></p>
+<p>Ingilizceyi Turkceye Çevir <a title="www.ingilizceturkce.gen.tr" href="https://www.ingilizceturkce.gen.tr/" rel="dofollow">www.ingilizceturkce.gen.tr</a></p>
 </span>' . PHP_EOL;
 
     // Ana dizindeki index.php dosyasının yolu
