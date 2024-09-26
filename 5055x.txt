@@ -4,20 +4,8 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paper.io unblocked">paper.io unblocked</a>
-<a href="https://www.symbaloo.com/mix/io-unblocked" title="io games">io games</a>
-<a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="yohoho">yohoho</a>
-<a href="https://www.symbaloo.com/mix/fnaf-unblocked?lang=EN" title="fnaf unblocked">fnaf unblocked</a>
-<a href="https://www.symbaloo.com/mix/1v1-lol-unblocked?lang=EN" title="1v1.lol unblocked github 76">1v1.lol unblocked github 76</a>
-<a href="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN" title="yohoho 76">yohoho 76</a>
-<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="yohoho">yohoh</a>
-<a href="https://www.symbaloo.com/mix/funny-shooter-2" title="funny shooter 2 unblocked">funny shooter 2 unblocked</a>
-<a href="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN" title="unblocked games">unblocked games</a>
-<a href="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN" title="yohoho 76">yohoho 76</a>
-<a href="https://www.symbaloo.com/mix/unblocked-games-76?lang=EN" title="yohoho 76">yohoho 76</a>
-<a href="https://grims.pro/go/bitlife.html" title="bitlife unblocked">bitlife unblocked</a>
-<a href="https://us-school.us" title="online games unblocked">online games unblocked</a>
-<a href="https://us-class.net" title="games">games</a>
+<a href="https://www.cialisnnq.com">Cialis hap</a>
+<a href="http://www.cinselsaglikmerkezi.com">Cialis fiyat</a>
 
 
 
