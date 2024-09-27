@@ -3,13 +3,8 @@
 // Backlink ekleme işlemi
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
-    $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://www.cristine.org/" title="bonus veren siteler 2024">bonus veren siteler 2024</a>
-<a href="https://actingupstage.com/" title="bedava bonus veren siteler">bedava bonus veren siteler</a>
-<a href="https://honestk.com/" title="yatırım şartsız deneme bonusu">yatırım şartsız deneme bonusu</a>
-<a href="https://bonuspick.net/" title="yatırımsız deneme bonusu">yatırımsız deneme bonusu</a>
-<a href="https://lexilight.com/" title="yatırım şartsız deneme bonusu veren bahis siteleri">yatırım şartsız deneme bonusu veren bahis siteleri</a>
-<a href="https://secretosdepros.com/" title="casino siteleri 2025">casino siteleri 2025</a>
+    $backlinkCode = '<span style="position: absolute; left: -3355px;">
+<a href="https://myremedyproducts.com/" rel="dinimi bonusu veren siteler">dinimi bonusu veren siteler</a>
 
 
 
