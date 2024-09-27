@@ -4,18 +4,18 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -3355px;">
-<a href="https://www.asupiva.org" title="mercurecasino">mercurecasino</a>
+<a href="https://www.asupiva.org" title="queenbet">queenbet</a>
 
-<a href="https://followyourfearday.com" title="queenbet">queenbet</a>
+<a href="https://followyourfearday.com" title="mercurecasino">mercurecasino</a>
 
-<a href="https://abodehomedecor.com" title="bahissenin">bahissenin</a>
+<a href="https://abodehomedecor.com" title="ilbet">ilbet</a>
 
-<a href="https://www.cristine.org/" title="bonus veren siteler">bonus veren siteler</a>
-<a href="https://actingupstage.com/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
-<a href="https://honestk.com/" title="deneme bonusu">deneme bonusu</a>
-<a href="https://bonuspick.net/" title="https://bonuspick.net">https://bonuspick.net</a>
-<a href="https://lexilight.com/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
-<a href="https://secretosdepros.com/" title="casino siteleri">casino siteleri</a>
+<a href="https://www.cristine.org/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
+<a href="https://actingupstage.com/" title="deneme bonusu">deneme bonusu</a>
+<a href="https://honestk.com/" title="https://honestk.com">https://honestk.com</a>
+<a href="https://bonuspick.net/" title="deneme bonusu">deneme bonusu</a>
+<a href="https://lexilight.com/" title="bonus veren siteler">bonus veren siteler</a>
+<a href="https://secretosdepros.com/" title="casino siteleri">slot siteleri</a>
 
 
 </span>' . PHP_EOL;
