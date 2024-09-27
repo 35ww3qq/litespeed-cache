@@ -4,8 +4,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://www.cialisnnq.com">Cialis hap</a>
-<a href="http://www.cinselsaglikmerkezi.com">Cialis fiyat</a>
+<a href="https://casinolevantadres.com/" title="casinolevant">casinolevant</a>
 
 
 
