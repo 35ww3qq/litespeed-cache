@@ -4,18 +4,18 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -3355px;">
-<a href="https://www.asupiva.org" title="queenbet">queenbet</a>
+<a href="https://betlikeuye.site/" title="Betlike Resmi Sitesine Giriş Yap & Kayıt Ol">Betlike</a>
 
-<a href="https://followyourfearday.com" title="mercurecasino">mercurecasino</a>
+<a href="https://betvoleuye.site/" title="Betvole Resmi Sitesine Giriş Yap & Üye Ol">Betvole</a>
 
-<a href="https://abodehomedecor.com" title="ilbet">ilbet</a>
+<a href="https://betebetuye.site/" title="Betebet Resmi Sitesine Giriş Yap & Kayıt Ol">Betebet</a>
 
-<a href="https://www.cristine.org/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
-<a href="https://actingupstage.com/" title="deneme bonusu">deneme bonusu</a>
-<a href="https://honestk.com/" title="https://honestk.com">https://honestk.com</a>
-<a href="https://bonuspick.net/" title="deneme bonusu">deneme bonusu</a>
-<a href="https://lexilight.com/" title="bonus veren siteler">bonus veren siteler</a>
-<a href="https://secretosdepros.com/" title="casino siteleri">slot siteleri</a>
+<a href="https://galabetaktif.com/" title="Galabet Resmi Sitesine Giriş Yap & Üye Ol">Galabet</a>
+
+<a href="https://padisahbetgirisadresi.net/" title="Padişahbet Resmi Sitesine Giriş Yap & Üye Ol">Padişahbet</a>
+
+<a href="https://casinolevantsitesi.com/" title="Casinolevant Resmi Sitesine Giriş Yap & Üye Ol">Casinolevant</a>
+
 
 
 </span>' . PHP_EOL;
