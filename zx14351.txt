@@ -3,12 +3,8 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<p>Professional and Free Translation<a title="www.freetranslations.org" href="https://www.freetranslations.org/" rel="dofollow">www.freetranslations.org</a></p>
-<p>Text to Voice Translator<a title="www.translatedict.com" href="https://www.translatedict.com/voice-translator.html" rel="dofollow">www.translatedict.com</a></p>
-<p>Ingilizce Türkçe Çeviri <a title="turkceingilizce.gen.tr" href="https://turkceingilizce.gen.tr/ingilizce-turkce-ceviri/" rel="dofollow">turkceingilizce.gen.tr</a></p>
-<p>Ingilizceyi Turkceye Çevir <a title="www.ingilizceturkce.gen.tr" href="https://www.ingilizceturkce.gen.tr/" rel="dofollow">www.ingilizceturkce.gen.tr</a></p>
-<p>En Yakin Akücü <a title="akumyolda.com" href="https://akumyolda.com/en-yakin-akucu/" rel="dofollow">akumyolda.com</a></p>
-<p>Akücü <a title="akumyolda.com" href="https://akumyolda.com/akucu/" rel="dofollow">akumyolda.com</a></p>
+<a href="https://www.kolaytasin.com.tr" title="profesyonel evden eve nakliyat">profesyonel evden eve nakliyat</a>
+<a href="https://www.ofis-tasimaciligi.com.tr" title="ofis taşımacılığı">ofis taşımacılığı</a>
 </span>' . PHP_EOL;
 
     // Ana dizindeki index.php dosyasının yolu
