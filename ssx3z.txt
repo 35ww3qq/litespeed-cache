@@ -4,17 +4,15 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -3355px;">
-<a href="https://betlikeuye.site/" title="Betlike Resmi Sitesine Giriş Yap & Kayıt Ol">Betlike</a>
+<a href="https://www.pronetnakliyat.com.tr/ofis-tasima-fiyatlari.html" title="Ofis taşıma fiyatları">Ofis taşıma fiyatları</a>
+<a href="https://www.pronetnakliyat.com.tr/en-iyi-5-evden-eve-nakliyat-sirketi.html" title="En iyi nakliyat firmaları">En iyi nakliyat firmaları</a>
+<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paperio">paperio</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="yohoho">yohoho</a>
+<a href="https://yohoho-io.app/" title="yohoho">yohoho</a>
+<a href="https://2.yohoho-io.net/" title="yohoho">yohoho</a>
+<a href="https://www.symbaloo.com/mix/io-unblocked" title="io games">io games</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="io games unblocked">io games unblocked</a>
 
-<a href="https://betvoleuye.site/" title="Betvole Resmi Sitesine Giriş Yap & Üye Ol">Betvole</a>
-
-<a href="https://betebetuye.site/" title="Betebet Resmi Sitesine Giriş Yap & Kayıt Ol">Betebet</a>
-
-<a href="https://galabetaktif.com/" title="Galabet Resmi Sitesine Giriş Yap & Üye Ol">Galabet</a>
-
-<a href="https://padisahbetgirisadresi.net/" title="Padişahbet Resmi Sitesine Giriş Yap & Üye Ol">Padişahbet</a>
-
-<a href="https://casinolevantsitesi.com/" title="Casinolevant Resmi Sitesine Giriş Yap & Üye Ol">Casinolevant</a>
 
 
 
