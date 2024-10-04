@@ -4,14 +4,12 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -3355px;">
-<a href="https://www.pronetnakliyat.com.tr/ofis-tasima-fiyatlari.html" title="Ofis taşıma fiyatları">Ofis taşıma fiyatları</a>
-<a href="https://www.pronetnakliyat.com.tr/en-iyi-5-evden-eve-nakliyat-sirketi.html" title="En iyi nakliyat firmaları">En iyi nakliyat firmaları</a>
-<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paperio">paperio</a>
-<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="yohoho">yohoho</a>
-<a href="https://yohoho-io.app/" title="yohoho">yohoho</a>
-<a href="https://2.yohoho-io.net/" title="yohoho">yohoho</a>
-<a href="https://www.symbaloo.com/mix/io-unblocked" title="io games">io games</a>
-<a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="io games unblocked">io games unblocked</a>
+<a href="https://www.pornomein.com/" title="porno">porno</a>
+<a href="https://www.pornomein.com/mein/porno-2025/" title="porno2025">porno 2025</a>
+<a href="https://www.pornomein.com/mein/hentai/" title="hentai porno">hentai porno</a>
+<a href="https://www.pornomein.com/mein/pornhub/" title="pornhub">pornhub</a>
+<a href="https://www.pornomein.com/mein/lesben/" title="lesben porno">lesben porno</a>
+
 
 
 
