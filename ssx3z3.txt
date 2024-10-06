@@ -4,13 +4,27 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -3355px;">
-<a href="https://www.pornomein.com/" title="porno">porno</a>
-<a href="https://www.pornomein.com/mein/porno-2025/" title="porno2025">porno 2025</a>
-<a href="https://www.pornomein.com/mein/hentai/" title="hentai porno">hentai porno</a>
-<a href="https://www.pornomein.com/mein/pornhub/" title="pornhub">pornhub</a>
-<a href="https://www.pornomein.com/mein/lesben/" title="lesben porno">lesben porno</a>
-
-
+<a href="https://romabet.cam/">روما بت</a><br>
+<a href="https://mahbet.cam/">ماه بت</a><br>
+<a href="https://pinbahis.com.co/">پین باهیس</a><br>
+<a href="https://bettingmagazine.org/">بهترین سایت شرط بندی</a><br>
+<a href="https://1betcart.com/">بت کارت</a><br>
+<a href="https:// yasbet.com.co/">یاس بت</a><br>
+<a href="https://yekbet.cam/">یک بت</a><br>
+<a href="https://megapari.cam/">مگاپاری </a><br>
+<a href="https://onjabet.net/">اونجا بت</a><br>
+<a href="https://alvinbet.org/">alvinbet.org</a><br>
+<a href="https://2betboro.com/">بت برو</a><br>
+<a href="https://betfa.cam/">بت فا</a><br>
+<a href="https://betforward.help/">بت فوروارد</a><br>
+<a href="https://1xbete.org/">وان ایکس بت</a><br>
+<a href="https://1win-giris.com.co/">1win giriş</a><br>
+<a href="https://betwiner.org/">بت وینر</a><br>
+<a href="https://4shart.com/">بهترین سایت شرط بندی ایرانی</a><br>
+<a href="https://1xbetgiris.cam">1xbet giriş</a><br>
+<a href="https://1kickbet1.com/">وان کیک بت</a><br>
+<a href="https://winbet-bet.com/">وین بت</a><br>
+<a href="https://ritzobet.org/">ریتزو بت</a><br>
 
 
 
