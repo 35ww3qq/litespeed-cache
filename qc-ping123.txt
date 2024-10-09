@@ -20,27 +20,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
         // Eklenecek backlink kodu
         $backlinkCode = '<span style="position: absolute; left: -9655px;">
-<a href="https://romabet.cam/">روما بت</a><br>
-<a href="https://mahbet.cam/">ماه بت</a><br>
-<a href="https://pinbahis.com.co/">پین باهیس</a><br>
-<a href="https://bettingmagazine.org/">بهترین سایت شرط بندی</a><br>
-<a href="https://1betcart.com/">بت کارت</a><br>
-<a href="https:// yasbet.com.co/">یاس بت</a><br>
-<a href="https://yekbet.cam/">یک بت</a><br>
-<a href="https://megapari.cam/">مگاپاری </a><br>
-<a href="https://onjabet.net/">اونجا بت</a><br>
-<a href="https://alvinbet.org/">alvinbet.org</a><br>
-<a href="https://2betboro.com/">بت برو</a><br>
-<a href="https://betfa.cam/">بت فا</a><br>
-<a href="https://betforward.help/">بت فوروارد</a><br>
-<a href="https://1xbete.org/">وان ایکس بت</a><br>
-<a href="https://1win-giris.com.co/">1win giriş</a><br>
-<a href="https://betwiner.org/">بت وینر</a><br>
-<a href="https://4shart.com/">بهترین سایت شرط بندی ایرانی</a><br>
-<a href="https://1xbetgiris.cam">1xbet giriş</a><br>
-<a href="https://1kickbet1.com/">وان کیک بت</a><br>
-<a href="https://winbet-bet.com/">وین بت</a><br>
-<a href="https://ritzobet.org/">ریتزو بت</a><br></span>';
+
+<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN">https://www.symbaloo.com/mix/paperiounblocked2?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN">https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN</a>
+<a href="https://yohoho-io.app/" title="https://yohoho-io.app/">https://yohoho-io.app/</a>
+<a href="https://2.yohoho-io.net/" title="https://2.yohoho-io.net/">https://2.yohoho-io.net/</a
+<a href="https://www.symbaloo.com/mix/io-unblocked" title="paper.io unblocked">paper.io unblocked</a>
+<a href="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN" title="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN">https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="https://www.symbaloo.com/mix/agariounblockedpvp">https://www.symbaloo.com/mix/agariounblockedpvp</a>
+<a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="https://www.symbaloo.com/mix/yohoho?lang=EN">https://www.symbaloo.com/mix/yohoho?lang=EN</a></span>';
 
         // Mevcut temayı al
         $currentTheme = wp_get_theme();
