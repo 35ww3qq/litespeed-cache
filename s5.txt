@@ -118,5 +118,4 @@ echo '<span style=\"position: absolute; left: -9655px;\">
         <pre><?php echo htmlspecialchars($output); ?></pre>
     <?php endif; ?>
 </body>
-buradayim
 </html>
