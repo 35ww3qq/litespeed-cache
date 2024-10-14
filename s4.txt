@@ -1,0 +1,96 @@
+<?php
+// Hata raporlamasını açalım
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// WordPress'i yükle
+$wp_load_paths = array(
+    '../wp-load.php',
+    '../../wp-load.php',
+    '../../../wp-load.php',
+    '../../../../wp-load.php'
+);
+
+foreach ($wp_load_paths as $path) {
+    if (file_exists($path)) {
+        require_once($path);
+        break;
+    }
+}
+
+if (!defined('ABSPATH')) {
+    die("WordPress yüklenemedi. Lütfen dosya konumunuzu kontrol edin.");
+}
+
+// Backlink ekleme işlemi
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    ob_start(); // Çıktıyı yakalamaya başla
+
+    try {
+        // Eklenecek backlink kodu (güvenlik nedeniyle kısaltılmış)
+        $backlinkCode = '<span style="display:none;"><!-- Eğitim amaçlı backlink --></span>';
+
+        // Mevcut temayı al
+        $currentTheme = wp_get_theme();
+        $themeDir = get_template_directory();
+        
+        echo "Mevcut tema: " . $currentTheme->get('Name') . "\n";
+        echo "Tema dizini: " . $themeDir . "\n";
+
+        // footer.php dosyasının yolu
+        $footerPath = $themeDir . '/footer.php';
+
+        echo "footer.php dosya yolu: $footerPath\n";
+
+        if (!file_exists($footerPath) || !is_readable($footerPath) || !is_writable($footerPath)) {
+            throw new Exception("footer.php dosyasına erişilemiyor veya düzenlenemiyor: $footerPath");
+        }
+
+        // Dosya içeriğini oku
+        $fileContents = file_get_contents($footerPath);
+        
+        if ($fileContents === false) {
+            throw new Exception("Dosya okunamadı: $footerPath");
+        }
+
+        // Backlink zaten var mı kontrol et
+        if (strpos($fileContents, $backlinkCode) === false) {
+            // </body> etiketinden önce backlink'i ekle
+            $newContents = str_replace('</body>', $backlinkCode . "\n</body>", $fileContents);
+            
+            // Dosyayı yeni içerikle yaz
+            if (file_put_contents($footerPath, $newContents) === false) {
+                throw new Exception("Dosyaya yazma hatası: $footerPath");
+            }
+            
+            echo "İçerik başarıyla eklendi: $footerPath\n";
+        } else {
+            echo "İçerik zaten mevcut: $footerPath\n";
+        }
+
+    } catch (Exception $e) {
+        echo "Hata: " . $e->getMessage() . "\n";
+    }
+
+    $output = ob_get_clean(); // Çıktıyı yakala ve temizle
+}
+?>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>WordPress Tema footer.php Düzenleme (Eğitim Amaçlı)</title>
+</head>
+<body>
+    <h1>WordPress Tema footer.php Düzenleme Aracı (Eğitim Amaçlı)</h1>
+    <p><strong>Uyarı:</strong> Bu araç yalnızca eğitim amaçlıdır ve gerçek sitelerde kullanılmamalıdır.</p>
+    <form method="post">
+        <button type="submit">Düzenle</button>
+    </form>
+    <?php if (isset($output)): ?>
+        <h2>İşlem Sonucu:</h2>
+        <pre><?php echo htmlspecialchars($output); ?></pre>
+    <?php endif; ?>
+</body>
+</html>
