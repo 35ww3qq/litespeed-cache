@@ -4,13 +4,13 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://denemebonuscun.com" title="deneme bonusu" target="_blank">deneme bonusu</a>
-<a href="https://murrayhughes.com" title="deneme bonusu veren siteler" target="_blank">deneme bonusu veren siteler</a>
-<a href="https://dinamobetresmi.com" title="Dinamobet" target="_blank">Dinamobet</a>
-<a href="https://dinamobetdestek.com" title="Dinamobet Sitesi" target="_blank">Dinamobet Sitesi</a>
-<a href="https://dinamobet-tr.com" title="Dinamobet-tr.com" target="_blank">Dinamobet-tr.com</a>
-<a href="https://dinamobetsitesi.com" title="Dinamobetsitesi.com" target="_blank">Dinamobetsitesi.com</a>
-<a href="https://dinamobetkayit.com" title="Dinamobetkayit.com" target="_blank">Dinamobetkayit.com</a>
+<a href="https://armabahissitesi.com" title="Armabahis">Armabahis</a>
+<a href="https://armabahigirisyap.com" title="armabahigirisyap.com">armabahigirisyap.com</a>
+<a href="https://armabahisdestek.com" title="armabahisdestek.com">armabahisdestek.com</a>
+<a href="https://kurbahiss.com" title="Kurbahis">Kurbahis</a>
+<a href="https://kurbahisdestek.com" title="kurbahisdestek.com">kurbahisdestek.com</a>
+<a href="https://kurbahisresmi.com" title="kurbahisresmi.com">kurbahisresmi.com</a>
+
 
 
 </span>' . PHP_EOL;
