@@ -4,12 +4,10 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://armabahissitesi.com" title="Armabahis">Armabahis</a>
-<a href="https://armabahigirisyap.com" title="armabahigirisyap.com">armabahigirisyap.com</a>
-<a href="https://armabahisdestek.com" title="armabahisdestek.com">armabahisdestek.com</a>
-<a href="https://kurbahiss.com" title="Kurbahis">Kurbahis</a>
-<a href="https://kurbahisdestek.com" title="kurbahisdestek.com">kurbahisdestek.com</a>
-<a href="https://kurbahisresmi.com" title="kurbahisresmi.com">kurbahisresmi.com</a>
+<a href="https://hekimogluevdenevenakliye.com/" title="istanbul evden eve nakliyat">istanbul evden eve nakliyat</a>
+<a href="https://hekimogluevdenevenakliye.com/" title="evden eve nakliyat">evden eve nakliyat</a>
+<a href="https://www.hekimogludepolama.com.tr/" title="istanbul eşya depolama">istanbul eşya depolama</a>
+<a href="https://www.hekimogludepolama.com.tr/" title="eşya depolama">eşya depolama</a>
 
 
 
