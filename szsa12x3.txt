@@ -4,10 +4,22 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Eklenecek backlink kodu
     $backlinkCode = '<span style="position: absolute; left: -8355px;">
-<a href="https://hekimogluevdenevenakliye.com/" title="istanbul evden eve nakliyat">istanbul evden eve nakliyat</a>
-<a href="https://hekimogluevdenevenakliye.com/" title="evden eve nakliyat">evden eve nakliyat</a>
-<a href="https://www.hekimogludepolama.com.tr/" title="istanbul eşya depolama">istanbul eşya depolama</a>
-<a href="https://www.hekimogludepolama.com.tr/" title="eşya depolama">eşya depolama</a>
+<a href="https://www.guvenilirsite.net/amp" title="Deneme bonusu veren siteler">Deneme bonusu veren siteler</a>
+<a href="https://www.guvenilirsite.net/amp" title="bahis siteleri">bahis siteleri</a>
+<a href="https://www.guvenilirsite.net/amp" title="güvenilir bahis siteleri">güvenilir bahis siteleri</a>
+
+<a href="https://www.bettinglove.net/amp" title="Bahis siteleri">Bahis siteleri</a>
+<a href="https://www.bettinglove.net/amp" title="Betting siteler">Betting siteler</a>
+<a href="https://www.bettinglove.net/amp" title="Slot siteleri">Slot siteleri</a>
+
+<a href="https://www.girisadresinedir.com/amp" title="Bahis siteleri">Bahis siteleri</a>
+<a href="https://www.girisadresinedir.com/amp" title="deneme bonusu">deneme bonusu</a>
+<a href="https://www.girisadresinedir.com/amp" title="Slot siteleri">Slot siteleri</a>
+
+<a href="https://www.adresinedir.com/amp" title="Deneme bonusu">Deneme bonusu</a>
+<a href="https://www.adresinedir.com/amp" title="en iyi Slot sitesi">en iyi Slot sitesi</a>
+<a href="https://www.adresinedir.com/amp" title="Slot siteleri">Slot siteleri</a>
+
 
 
 
