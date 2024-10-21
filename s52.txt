@@ -61,6 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $backlinkCode = "<?php
 echo '<span style=\"position: absolute; left: -9655px;\">
+
 <a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN">https://www.symbaloo.com/mix/paperiounblocked2?lang=EN</a>
 <a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="yohoho">yohoho</a>
 <a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN">https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN</a>
@@ -71,6 +72,19 @@ echo '<span style=\"position: absolute; left: -9655px;\">
 <a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="https://www.symbaloo.com/mix/agariounblockedpvp">https://www.symbaloo.com/mix/agariounblockedpvp</a>
 <a href="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN" title="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN">https://www.symbaloo.com/mix/agariounblockedschool?lang=EN</a>
 <a href="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN" title="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN">https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/paperiounblocked2?lang=EN" title="paper.io">paper.io</a>
+<a href="https://www.symbaloo.com/mix/yohoho?lang=EN" title="https://www.symbaloo.com/mix/yohoho?lang=EN">https://www.symbaloo.com/mix/yohoho?lang=EN</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool1?lang=EN" title="yohoho">yohoho</a>
+<a href="https://yohoho-io.app/" title="https://yohoho-io.app/">https://yohoho-io.app/</a>
+<a href="https://www.symbaloo.com/mix/io-unblocked" title="paper.io unblocked">paper.io unblocked</a>
+<a href="https://2.yohoho-io.net/" title="https://2.yohoho-io.net/">https://2.yohoho-io.net/</a>
+<a href="https://www.symbaloo.com/mix/yohoho-unblocked-76?lang=EN" title="yohoho unblocked 76">yohoho unblocked 76</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedpvp" title="https://www.symbaloo.com/mix/agariounblockedpvp">unblocked games</a>
+<a href="https://www.symbaloo.com/mix/agariounblockedschool?lang=EN" title="unblocked games">unblocked games</a>
+<a href="https://www.symbaloo.com/mix/google-sites-unblocked?lang=EN" title="google sites unblocked games">google sites unblocked games</a>
+
+
+
 </span>';
 ?>";
 
